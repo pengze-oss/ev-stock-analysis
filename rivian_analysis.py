@@ -39,3 +39,9 @@ stats = data[["Close", "Daily Return (%)"]].agg(
 
 print("\nDescriptive statistics:")
 print(stats.round(3))
+
+# Calculate monthly average closing prices
+monthly = data["Close"].resample("ME").mean()
+
+print("\nMonthly average closing price (USD):")
+print(monthly.round(3))
