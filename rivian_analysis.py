@@ -23,3 +23,19 @@ print("Number of records:", len(data))
 print("Column names:", data.columns.tolist())
 print("\nData types:\n", data.dtypes)
 print("\nMissing values:\n", data.isna().sum())
+
+# Calculate daily percentage returns
+data["Daily Return (%)"] = (
+    data["Adj Close"].pct_change(fill_method=None) * 100
+)
+
+print("\nDaily returns:")
+print(data[["Adj Close", "Daily Return (%)"]].head())
+
+# Calculate descriptive statistics
+stats = data[["Close", "Daily Return (%)"]].agg(
+    ["count", "mean", "median", "min", "max", "std"]
+)
+
+print("\nDescriptive statistics:")
+print(stats.round(3))

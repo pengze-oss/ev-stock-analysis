@@ -12,3 +12,12 @@ High         float64      0
 Low          float64      0
 Open         float64      0
 Volume       int64        0
+
+Descriptive statistics:
+          Close  Daily Return (%)
+count   250.000           249.000
+mean     13.879             0.239
+median   13.500             0.000
+min      10.610            -7.810
+max      22.450            24.453
+std       2.136             4.084
