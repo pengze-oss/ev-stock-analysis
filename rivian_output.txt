@@ -1,0 +1,14 @@
+Rivian (RIVN) — Data Inspection
+
+Requested period: 2025 calendar year
+Actual start: 2025-01-02
+Actual end: 2025-12-31
+Number of records: 250
+
+Column       Data type    Missing values
+Adj Close    float64      0
+Close        float64      0
+High         float64      0
+Low          float64      0
+Open         float64      0
+Volume       int64        0
