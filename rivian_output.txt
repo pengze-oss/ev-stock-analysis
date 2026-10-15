@@ -37,3 +37,49 @@ Date
 2025-11-30    15.415
 2025-12-31    18.977
 Freq: ME, Name: Close, dtype: float64
+
+Biggest daily gain (%): 24.453
+Date of biggest gain: 2025-01-03
+
+Biggest daily drop (%): -7.81
+Date of biggest drop: 2025-11-14
+
+Event period:
+             Close  Daily Return (%)     Volume
+Date                                           
+2025-01-02  13.250               NaN   30449400
+2025-01-03  16.490         24.452828  124581800
+2025-01-06  15.715         -4.699816   58377100
+2025-01-07  14.950         -4.867963   35938000
+2025-01-08  14.210         -4.949831   33065300
+2025-01-10  13.850         -2.533425   23209000
+
+Highest close: 16.489999771118164
+Date: 2025-01-03
+
+Lowest close: 13.25
+Date: 2025-01-02
+
+Rivian Significant Movement Analysis
+
+Event window: January 2–10, 2025.
+
+Rivian's closing price rose from $13.25 on January 2 to $16.49 on January 3, a daily return of approximately 24.45%. 
+These were the lowest and highest closing prices in the selected window.
+
+On January 3, Rivian reported 2024 deliveries of 51,579 vehicles, within its guidance of 50,500–52,000. 
+It also announced that a component shortage was no longer limiting production. 
+This news may have improved investors' expectations about operational performance.
+
+Three data-backed findings:
+1. January 3 had the largest positive daily return in the 2025 sample: 24.45%.
+2. Trading volume was 124,581,800 shares, approximately 3.6 times the full-year median of 34,630,100 shares, 
+indicating unusually active trading.
+3. By January 10, the closing price had fallen to $13.85. The window's overall price increase was only 4.53%, 
+so much of the initial gain had reversed.
+
+The timing, return and volume are consistent with a positive market reaction to the announcement. 
+However, they do not prove causation; other news and broader market movements may also have contributed.
+
+Source: [Rivian production and delivery announcement, January 3, 2025, SEC Exhibit 99.1]
+(https://www.sec.gov/Archives/edgar/data/1874178/000187417825000002/ex-9914q24deliveryproducti.htm).
