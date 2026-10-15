@@ -83,3 +83,8 @@ However, they do not prove causation; other news and broader market movements ma
 
 Source: [Rivian production and delivery announcement, January 3, 2025, SEC Exhibit 99.1]
 (https://www.sec.gov/Archives/edgar/data/1874178/000187417825000002/ex-9914q24deliveryproducti.htm).
+
+Figure 1: rivian_event.png
+
+Rivian’s closing price rose 24.45% on January 3, the date of its production and delivery announcement, 
+then fell to $13.85 by January 10. The window’s overall gain was 4.53%, showing that much of the initial increase had reversed.

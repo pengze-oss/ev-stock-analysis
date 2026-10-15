@@ -80,3 +80,18 @@ end_price = event["Adj Close"].iloc[-1]
 window_change = (end_price / start_price - 1) * 100
 
 print("Jan 2-10 price change (%):", round(window_change, 2))
+
+import matplotlib.pyplot as plt
+
+# Plot the closing price during the event window
+plt.figure(figsize=(9, 4))
+plt.plot(event.index, event["Close"], marker="o")
+
+plt.title("Rivian Closing Price: January 2-10, 2025")
+plt.xlabel("Date")
+plt.ylabel("Closing Price (USD)")
+plt.xticks(rotation=45)
+
+plt.tight_layout()
+plt.savefig("rivian_event.png", dpi=150)
+plt.show()
