@@ -1,0 +1,137 @@
+BYD (BYDDY) - Data Inspection
+Date range: 2025-01-02 to 2025-12-31
+Number of records: 250
+Downloaded fields: ['Adj Close', 'Close', 'High', 'Low', 'Open', 'Volume']
+
+Data types:
+Adj Close    float64
+Close        float64
+High         float64
+Low          float64
+Open         float64
+Volume         int64
+dtype: object
+
+Missing values in downloaded fields:
+Adj Close    0
+Close        0
+High         0
+Low          0
+Open         0
+Volume       0
+dtype: int64
+
+Descriptive statistics (prices in USD, returns in %):
+          Close  Daily Return
+count   250.000       249.000
+mean     14.616         0.079
+median   14.475         0.000
+min      10.617        -9.250
+max      19.725         9.332
+std       2.017         2.841
+
+Monthly average closing price (USD):
+Date
+2025-01-31    11.354
+2025-02-28    14.996
+2025-03-31    16.357
+2025-04-30    15.747
+2025-05-31    17.601
+2025-06-30    16.758
+2025-07-31    15.825
+2025-08-31    14.419
+2025-09-30    13.817
+2025-10-31    13.609
+2025-11-30    12.488
+2025-12-31    12.351
+Freq: ME, Name: Close, dtype: float64
+
+BYD event window: May 23-30, 2025
+             Close  Daily Return   Volume
+Date                                     
+2025-05-23  19.712         0.861  2723400
+2025-05-27  17.888        -9.250  8905200
+2025-05-28  17.075        -4.547  6434400
+2025-05-29  17.168         0.547  3530400
+2025-05-30  16.500        -3.893  6173400
+Highest close: 19.71
+Date: 2025-05-23
+Lowest close: 16.5
+Date: 2025-05-30
+Biggest daily drop in 2025 (%): -9.25
+Date: 2025-05-27
+May 27 daily return (%): -9.25
+Annual median daily volume: 2478600.0
+Event-day volume: 8905200.0
+Event-day volume / annual median: 3.59
+Event-window price change (%): -16.29
+
+============================================================
+
+Tesla (TSLA) - Data Inspection
+Date range: 2025-01-02 to 2025-12-31
+Number of records: 250
+Downloaded fields: ['Adj Close', 'Close', 'High', 'Low', 'Open', 'Volume']
+
+Data types:
+Adj Close    float64
+Close        float64
+High         float64
+Low          float64
+Open         float64
+Volume         int64
+dtype: object
+
+Missing values in downloaded fields:
+Adj Close    0
+Close        0
+High         0
+Low          0
+Open         0
+Volume       0
+dtype: int64
+
+Descriptive statistics (prices in USD, returns in %):
+          Close  Daily Return
+count   250.000       249.000
+mean    356.971         0.147
+median  344.045         0.034
+min     221.860       -15.426
+max     489.880        22.690
+std      69.977         3.988
+
+Monthly average closing price (USD):
+Date
+2025-01-31    405.019
+2025-02-28    343.339
+2025-03-31    255.808
+2025-04-30    257.148
+2025-05-31    323.865
+2025-06-30    323.891
+2025-07-31    314.989
+2025-08-31    331.145
+2025-09-30    395.892
+2025-10-31    441.328
+2025-11-30    424.544
+2025-12-31    461.518
+Freq: ME, Name: Close, dtype: float64
+
+Tesla event window: April 7-11, 2025
+             Close  Daily Return     Volume
+Date                                       
+2025-04-07  233.29        -2.564  183453800
+2025-04-08  221.86        -4.899  171603500
+2025-04-09  272.20        22.690  219433400
+2025-04-10  252.40        -7.274  181722600
+2025-04-11  252.31        -0.036  128948100
+Highest close: 272.2
+Date: 2025-04-09
+Lowest close: 221.86
+Date: 2025-04-08
+Biggest daily gain in 2025 (%): 22.69
+Date: 2025-04-09
+April 9 daily return (%): 22.69
+Annual median daily volume: 92842400.0
+Event-day volume: 219433400.0
+Event-day volume / annual median: 2.36
+Event-window price change (%): 8.15
