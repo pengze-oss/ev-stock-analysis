@@ -1,0 +1,83 @@
+Three-Stock Daily Return Comparison
+
+Tickers: RIVN, BYDDY, TSLA
+Requested period: January 1–December 31, 2025
+Returns calculated from adjusted closing prices.
+
+Missing adjusted closing prices:
+RIVN: 0
+BYDDY: 0
+TSLA: 0
+
+Number of shared daily return observations: 249
+
+Daily Return Correlation:
+         RIVN  BYDDY   TSLA
+RIVN    1.000  0.162  0.424
+BYDDY   0.162  1.000  0.200
+TSLA    0.424  0.200  1.000
+
+Interpretation:
+Rivian and Tesla have the strongest positive daily-return correlation in this sample (0.424), 
+indicating a moderate tendency to move together.
+BYD has weaker positive correlations with Rivian (0.162) and Tesla (0.200), suggesting less closely aligned daily movements.
+
+Three-Stock Comparison: Rivian, BYD and Tesla
+
+Tickers: RIVN, BYDDY, TSLA
+Price comparison period: January 2–December 31, 2025
+Daily returns calculated from adjusted closing prices.
+Number of shared daily return observations: 249
+
+Missing adjusted closing prices:
+RIVN: 0
+BYDDY: 0
+TSLA: 0
+
+1. Daily Return Correlation
+
+         RIVN  BYDDY   TSLA
+RIVN    1.000  0.162  0.424
+BYDDY   0.162  1.000  0.200
+TSLA    0.424  0.200  1.000
+
+Rivian and Tesla have the strongest positive daily-return correlation in this sample (0.424), 
+indicating a moderate tendency to move together.
+BYD has weaker positive correlations with Rivian (0.162) and Tesla (0.200), suggesting less closely aligned daily movements.
+
+2. Normalized Adjusted Prices
+
+Each stock starts at 100 on January 2, 2025.
+
+Stock    Ending index    Change over the period
+RIVN         148.75              +48.75%
+BYDDY        110.24              +10.24%
+TSLA         118.57              +18.57%
+
+Rivian had the largest adjusted-price increase over this period, followed by Tesla and BYD.
+
+3. Daily Return Standard Deviation
+
+Units: percentage points
+
+RIVN:  4.084
+BYDDY: 2.841
+TSLA:  3.988
+
+Rivian had slightly higher daily return volatility than Tesla, while BYD had the lowest volatility of the three.
+
+4. Chart Captions
+
+normalized_price_comparison.png:
+Starting each stock at 100 shows that Rivian gained approximately 48.75% over the period, 
+compared with Tesla's 18.57% and BYD's 10.24%, despite different paths during the year.
+
+return_distribution_comparison.png:
+The boxplots show the spread and extreme values of daily returns; standard deviations were 4.084 percentage points for Rivian, 
+3.988 for Tesla and 2.841 for BYD.
+
+rivian_tesla_return_scatter.png:
+Rivian and Tesla's daily returns show a moderate positive relationship (correlation 0.424), 
+although the scattered points show that they did not always move together.
+
+These results describe historical patterns in this sample and do not establish causation.
