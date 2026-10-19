@@ -88,3 +88,18 @@ Figure 1: rivian_event.png
 
 Rivian’s closing price rose 24.45% on January 3, the date of its production and delivery announcement, 
 then fell to $13.85 by January 10. The window’s overall gain was 4.53%, showing that much of the initial increase had reversed.
+
+Figure 2: rivian_closing_price.png
+
+Rivian's closing price ranged from $10.61 to $22.45 in 2025, with a sharp rise near year-end, 
+showing substantial price variation beyond the January event.
+
+Figure 3: rivian_daily_returns.png
+
+Daily returns ranged from -7.81% to 24.45%, with January 3 producing the largest gain, 
+highlighting the scale of the selected event.
+
+Figure 4: rivian_return_distribution.png
+
+Most daily returns clustered around zero, while a few large positive returns created a long right tail, 
+showing how unusual the January 3 gain was.

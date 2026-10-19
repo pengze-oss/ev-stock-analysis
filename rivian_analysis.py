@@ -95,3 +95,58 @@ plt.xticks(rotation=45)
 plt.tight_layout()
 plt.savefig("rivian_event.png", dpi=150)
 plt.show()
+
+# Plot Rivian closing prices for the full year
+plt.figure(figsize=(10, 5))
+
+plt.plot(data.index, data["Close"], label="Rivian (RIVN)")
+
+plt.title("Rivian Daily Closing Price in 2025")
+plt.xlabel("Date")
+plt.ylabel("Closing Price (USD)")
+plt.legend()
+plt.grid(True, alpha=0.3)
+
+plt.tight_layout()
+plt.savefig("rivian_closing_price.png", dpi=150)
+plt.show()
+
+# Plot Rivian daily returns
+plt.figure(figsize=(10, 5))
+
+plt.plot(
+    data.index,
+    data["Daily Return (%)"],
+    label="Rivian Daily Return",
+    linewidth=0.8
+)
+
+plt.axhline(y=0, color="gray", linestyle="--")
+
+plt.title("Rivian Daily Stock Returns in 2025")
+plt.xlabel("Date")
+plt.ylabel("Daily Return (%)")
+plt.legend()
+plt.grid(True, alpha=0.3)
+
+plt.tight_layout()
+plt.savefig("rivian_daily_returns.png", dpi=150)
+plt.show()
+
+# Plot the distribution of Rivian daily returns
+plt.figure(figsize=(10, 5))
+
+plt.hist(
+    data["Daily Return (%)"].dropna(),
+    bins=30,
+    edgecolor="black"
+)
+
+plt.title("Distribution of Rivian Daily Returns in 2025")
+plt.xlabel("Daily Return (%)")
+plt.ylabel("Number of Trading Days")
+plt.grid(True, alpha=0.3)
+
+plt.tight_layout()
+plt.savefig("rivian_return_distribution.png", dpi=150)
+plt.show()
